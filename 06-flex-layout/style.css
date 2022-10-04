@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  padding: 0;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  padding: 7px;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+}
+
+.header {
+  display: flex;
+  background-color: #eee;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.header .left-links, li {
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px;
+}
+
+.store {
+  margin-left: 10px;
+}
+
+.header .right-links, li {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+.settings {
+  margin-left: 10px;
+}
+
+.header ul, li {
+  list-style-type: none;
+  margin: 0;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 86vh;
+  overflow: hidden;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  padding: 5px;
+  margin: auto;
+}
+
+.footer ul, a{
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
+.footer .left-links, li {
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px;
+  margin: 5px;
+}
+
+.footer .right-links, li {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+  margin: 5px;
+}
